@@ -1,0 +1,392 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>PrototipoInstituiçãodeEnsino</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>124a1l4jdoikf</unique-id>
+    <saved-with-version>27900</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Button" version="1">Button</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
+    </used-behaviors>
+    <used-effects>
+        <effect author="Scirra" id="blurhorizontal">Blur Horizontal</effect>
+        <effect author="Scirra" id="blurvertical">Blur Vertical</effect>
+    </used-effects>
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>854</width>
+        <height>480</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="SpriteLogin" sid="411200420442573">
+            <plugin id="Sprite" />
+            <effects>
+                <effect-type name="BlurVertical">
+                    <effect id="blurvertical" />
+                </effect-type>
+                <effect-type name="BlurHorizontal">
+                    <effect id="blurhorizontal" />
+                </effect-type>
+            </effects>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="546738863537889" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Djani\OneDrive\Área de Trabalho\BCC6ºP\Atividades Luciano\Projeto Clinica\clinica-fisioterapia-tecnologia-1.jpg">
+                        <collision-poly>
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ButtonLogin" sid="464895989107411">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="TextBoxName" sid="873437151158536">
+            <plugin id="TextBox" />
+            <instance-variables>
+                <instance-variable name="TextoNome" sid="104753376495680" type="string" />
+            </instance-variables>
+        </object-type>
+        <object-type name="Mouse" sid="525309889243496">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="Keyboard" sid="377271559093520">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="TextBoxSenha" sid="638464792232834">
+            <plugin id="TextBox" />
+            <instance-variables>
+                <instance-variable name="TextoSenha" sid="955301622127554" type="number" />
+            </instance-variables>
+        </object-type>
+        <object-type name="TextUsuario" sid="500365066783283">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TextSenha" sid="169082139321462">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TextTitulo" sid="621792903724307">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="User" sid="132276323833974">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Nome" sid="448969202216450" type="string" />
+                <instance-variable name="Senha" sid="350363394602209" type="string" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="240181854227010" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Spriteteste" sid="770403966357850">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="657103524839341" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Djani\Downloads\vida-pos-faculdade.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ButtonVoltar" sid="524329058996918">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Button" sid="530545377329891">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="SpriteUser" sid="232958767948264">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="163094069084762" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Djani\Downloads\4092564-about-mobile-ui-profile-ui-user-website_114033.png">
+                        <collision-poly>
+                            <point x="0.208333" y="0.208333" />
+                            <point x="0.5" y="0.0833333" />
+                            <point x="0.791667" y="0.208333" />
+                            <point x="0.916667" y="0.5" />
+                            <point x="0.791667" y="0.791667" />
+                            <point x="0.5" y="0.916667" />
+                            <point x="0.208333" y="0.791667" />
+                            <point x="0.0833333" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SpriteSenha" sid="952756216361501">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="972569311684145" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Djani\Downloads\3643767-key-keys-main-password-privilege_113429.png">
+                        <collision-poly>
+                            <point x="0.25" y="0.25" />
+                            <point x="0.5" y="0.416667" />
+                            <point x="0.583333" y="0.416667" />
+                            <point x="0.958333" y="0.5" />
+                            <point x="0.75" y="0.75" />
+                            <point x="0.5" y="0.583333" />
+                            <point x="0.25" y="0.75" />
+                            <point x="0.0416667" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Audio" sid="143386453116183">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="Touch" sid="161432406687267">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="TextErro" sid="131221976590617">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="Fade" sid="624425291189353">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="SpriteErro" sid="957465050459348">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="939601797007814">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="756430380156841" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite" sid="236609120316064">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="807781160580337" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Djani\Downloads\logo-fafic-site-oficial.png">
+                        <collision-poly>
+                            <point x="0.089153" y="0.23166" />
+                            <point x="0.499257" y="0.003861" />
+                            <point x="0.904903" y="0.247104" />
+                            <point x="0.8737" y="0.498069" />
+                            <point x="0.918276" y="0.787645" />
+                            <point x="0.499257" y="0.945946" />
+                            <point x="0.112927" y="0.706564" />
+                            <point x="0.0089153" y="0.498069" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text" sid="225805660551711">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="SpriteQuadroLogin" sid="324503583937735">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="104288005446525" speed="5">
+                    <frame duration="1" hotspotX="0.500935" hotspotY="0.50165" original-source="C:\Users\Djani\Downloads\wdwdwdwo.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Admin" sid="933094918404685">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Nome" sid="910576483079514" type="string" />
+                <instance-variable name="Senha" sid="269736721924225" type="string" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="299674412793938" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Professor" sid="132623971729291">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Nome" sid="739669844282407" type="string" />
+                <instance-variable name="Senha" sid="109118656721213" type="string" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="413643527706147" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SpriteQuadro" sid="162484573191430">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="638993827834537" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SpriteBarraMenu" sid="900304427307704">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="307616212572805" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TextNotas" sid="739088880648422">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TextFinanceiro" sid="780483762154695">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text4" sid="190803448180846">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="SpriteTabelaNotas" sid="826309464115951">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="138121925220912" speed="5">
+                    <frame duration="1" hotspotX="0.50031" hotspotY="0.50165" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SpriteLinha" sid="413748005646786">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="234417196812832" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SpriteLinha2" sid="692850404999063">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="283462288121587" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TextCovid" sid="193229809141956">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite2" sid="795378172249235">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="820674350057637" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Djani\Downloads\Aviso.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TextMonitoria" sid="413775233502600">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TextEventos" sid="240662271060554">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite3" sid="124460170300393">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="478170588386224" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Notas" sid="743235642968449">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="348184691579830" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SpriteFinanceiro" sid="809642147078493">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="996169356726172" speed="5">
+                    <frame duration="1" hotspotX="0.500626" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>LayoutLogin.xml</layout>
+        <layout>Pagina2Notas.xml</layout>
+        <layout>Financeiro.xml</layout>
+        <layout>PaginaAvisos.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>EventLogin.xml</event-sheet>
+        <event-sheet>EventNoticias.xml</event-sheet>
+        <event-sheet>EventNotas.xml</event-sheet>
+        <event-sheet>EventFinanceiro.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Mouse" uid="3" />
+        <global-instance type="Keyboard" uid="4" />
+        <global-instance type="Audio" uid="15">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
+        <global-instance type="Touch" uid="16">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
